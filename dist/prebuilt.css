@@ -1,0 +1,21 @@
+.grid {
+  display: flex;
+  gap: 16px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.grid .grid-item {
+  flex: 1 1 200px;
+  aspect-ratio: 16/9;
+  width: 100%;
+  background: chocolate;
+}
+
+body h3 {
+  color: #ec2b2b;
+}
+body h2 {
+  color: aqua;
+}
+
+/*# sourceMappingURL=prebuilt.css.map */

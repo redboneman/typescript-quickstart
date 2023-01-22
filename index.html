@@ -3,9 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Typescript quickstart</title>
-	<script src="dist/index.js"></script>
+	<script type="module" src="./dist/index.js"></script>
+	<link rel="stylesheet" href="./dist/main.css">
 </head>
 <body>
+	Hello world!
+	<h3>Its sass test</h3>
+	<h2>Lorem ipsum</h2>
 
+	<div class="grid">
+		<div class="grid-item">1</div>
+		<div class="grid-item">2</div>
+		<div class="grid-item">3</div>
+		<div class="grid-item">4</div>
+		<div class="grid-item">5</div>
+		<test-el message="Hello, it works properly!">Im the test element</test-el>
+	</div>
 </body>
 </html>

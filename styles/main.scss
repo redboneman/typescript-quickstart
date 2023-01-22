@@ -1,0 +1,13 @@
+@use "components";
+
+$env: #ec2b2b;
+
+body {
+	h3 {
+		color: $env;
+	}
+
+	h2 {
+		color: aqua;
+	}
+}

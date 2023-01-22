@@ -1,0 +1,13 @@
+.grid {
+	display: flex;
+	gap: 16px;
+	flex-flow: row wrap;
+	justify-content: center;
+
+	.grid-item {
+		flex: 1 1 200px;
+		aspect-ratio: 16 / 9;
+		width: 100%;
+		background: chocolate;
+	}
+}
